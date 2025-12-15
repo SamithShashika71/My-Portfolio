@@ -60,26 +60,25 @@ A modern and responsive personal portfolio website built using React to showcase
 
 ## 🚀 Getting Started
 
-  Follow these steps to run the project locally.
+Follow these steps to run the project locally.
 
-### 1️⃣ Clone the repository
+          ### 1️⃣ Clone the repository
+          
+            git clone https://github.com/your-username/portfolio.git
+          
+          ### 2️⃣ Navigate to the project folder
+          
+            cd my-portfolio
+          
+          ###  3️⃣ Install dependencies
+          
+            npm install
+          
+          ### 4️⃣ Start the development server
+          
+            npm start
 
-  git clone https://github.com/your-username/portfolio.git
-
-### 2️⃣ Navigate to the project folder
-
-  cd my-portfolio
-
-###  3️⃣ Install dependencies
-
-  npm install
-
-### 4️⃣ Start the development server
-
-  npm start
-
-Open 👉 http://localhost:5173 (Vite)
-or 👉 http://localhost:3000 (CRA)
+Open 👉 http://localhost:3000 (CRA)
 
 ---
 
@@ -95,15 +94,15 @@ or 👉 http://localhost:3000 (CRA)
 
 ## 📬 Contact
 
-Name: Samith Shashika
-GitHub: https://github.com/SamithShashika71
-Email: samithsashika71@gmail.com
+* Name: Samith Shashika
+* GitHub: https://github.com/SamithShashika71
+* Email: samithsashika71@gmail.com
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. 
 You are free to use and customize it for personal use.
 
 ---
