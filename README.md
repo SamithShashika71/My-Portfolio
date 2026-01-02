@@ -2,6 +2,8 @@
 
 A modern and responsive personal portfolio website built using React to showcase my skills, projects, and experience as a Software Engineering undergraduate. This portfolio acts as a professional digital profile for recruiters and collaborators.
 
+🌐 **Live Demo:** [https://samith-shashika.vercel.app](https://samith-shashika.vercel.app)
+
 ---
 
 ## ✨ Features
