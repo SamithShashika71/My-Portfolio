@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# 🚀 Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive personal portfolio website built using React to showcase my skills, projects, and experience as a Software Engineering undergraduate. This portfolio acts as a professional digital profile for recruiters and collaborators.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 🎨 Clean and modern UI/UX design  
+- 📱 Fully responsive (mobile, tablet, desktop)  
+- ⚛️ Built with React (component-based architecture)  
+- 🎥 Smooth animations using Framer Motion  
+- ⌨️ Typing animation for dynamic role display
+- 🌙 Dark theme–friendly design  
+- 🔍 SEO-friendly structure
+- 🔄 Reusable and scalable components
+- ♿ Accessibility best practices
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Framework:** React.js
+- **Language:** JavaScript (ES6+)
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion, React Type Animation
+- **Build Tool:** Vite / Create React App
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧩 Sections
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Hero – Animated name reveal, typing effect, social links, call-to-action buttons
+* About – Split layout with floating info cards and tab-based content
+* Skills – Categorized skill cards with animated progress bars
+* Projects – Interactive project cards with 3D tilt and hover effects
+* Contact – Animated contact form with social links and glow effects
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Project Structure
 
-### `npm run eject`
+          my-portfolio/
+          ├── src/
+          │ ├── components/
+          │ │ ├── HeroSection.jsx
+          │ │ ├── AboutSection.jsx
+          │ │ ├── ProjectsSection.jsx
+          │ │ ├── AchievementsSection.jsx
+          │ │ └── ContactSection.jsx
+          │ ├── assets/
+          │ ├── App.jsx
+          │ ├── main.jsx
+          │ └── index.css
+          ├── public/
+          ├── package.json
+          └── README.md
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Follow these steps to run the project locally.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+          1️⃣ Clone the repository
+          
+            git clone https://github.com/your-username/portfolio.git
+          
+          2️⃣ Navigate to the project folder
+          
+            cd my-portfolio
+          
+          3️⃣ Install dependencies
+          
+            npm install
+          
+          4️⃣ Start the development server
+          
+            npm start
 
-## Learn More
+Open 👉 http://localhost:3000 (CRA)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎨 Customization
 
-### Code Splitting
+* Update personal details in HeroSection.jsx
+* Add projects in ProjectsSection.jsx
+* Modify animations via Framer Motion
+* Change color themes in tailwind.config.js
+* Replace assets inside the assets/ directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📬 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Name: Samith Shashika
+* GitHub: https://github.com/SamithShashika71
+* Email: samithsashika71@gmail.com
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 License
 
-### Advanced Configuration
+This project is licensed under the MIT License. 
+You are free to use and customize it for personal use.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built with 💛 by Samith
