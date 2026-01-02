@@ -53,6 +53,11 @@ export const Skills = () => {
                     </div>
 
                     <div className="item">
+                      <img src={meter1} alt="css" />
+                      <h5>Tailwind CSS</h5>
+                    </div>
+
+                    <div className="item">
                       <img src={meter3} alt="javascript" />
                       <h5>JavaScript</h5>
                     </div>

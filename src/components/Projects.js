@@ -1,10 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.jpg";
-import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
@@ -32,7 +28,7 @@ export const Projects = () => {
       link: "https://github.com/SamithShashika71/Streamify-Social-App"
     },
     {
-      title: "SignBridge",
+      title: "SignBridge - FYP",
       description: "AI-powered mobile app for real-time Sri Lankan Sign Language gesture translation and 3D avatar-based text-to-sign rendering.",
       imgUrl: projImg9,
       category: "Mobile",
@@ -52,34 +48,6 @@ export const Projects = () => {
       category: "Web",
       link: "https://github.com/SamithShashika71/QuickCart"
     },
-    {
-      title: "Smart Fan Control System",
-      description: "Gesture-based fan control using MediaPipe, OpenCV, and Arduino for real-time IoT automation.",
-      imgUrl: projImg3,
-      category: "AI/ML",
-      link: "https://github.com/SamithShashika71/Smart-Fan-Control-Using-Image-Processing"
-    },
-    {
-      title: "Movie Review Application",
-      description: "A full stack movie review application built with React (frontend), Spring Boot (backend), and MongoDB (database).",
-      imgUrl: projImg2,
-      category: "Web",
-      link: "https://github.com/SamithShashika71/Movie-Review-Website"
-    },
-    {
-      title: "Random Quote Generator App",
-      description: "Random quotes generator with mulyiple aspects usin Flutter.",
-      imgUrl: projImg4,
-      category: "Mobile",
-      link: "https://github.com/SamithShashika71/Random-Quote-Generator-App"
-    },
-    {
-      title: "Food Order Website",
-      description: "A responsive food ordering frontend website built with HTML & CSS.",
-      imgUrl: projImg1,
-      category: "Web",
-      link: "https://github.com/SamithShashika71/Food-Order-Website"
-    },
   ];
 
   const renderProjects = (category) => {
@@ -94,7 +62,7 @@ export const Projects = () => {
   };
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
@@ -102,7 +70,7 @@ export const Projects = () => {
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Projects</h2>
-                  <p>I have worked on various academic and self-initiated projects that reflect my interest in real-time systems, mobile app development, and AI integration. .</p>
+                  <p>I have worked on various academic and self-initiated projects that reflect my interest in real-time systems, mobile app development, and AI integration.</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="all">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center">
                       <Nav.Item>

@@ -68,8 +68,8 @@ export const Contact = () => {
                   <div className="contact-left-wrapper mx-auto mt-5">
                     <div className="contact-details-box mb-4 shadow-sm">
                       <h4>My Contact Details</h4>
-                      <p><i className="bi bi-envelope-fill me-2"></i><strong>Email:</strong> samithsashika71@gmail.com</p>
-                      <p><i className="bi bi-telephone-fill me-2"></i><strong>Phone:</strong> 0764021805</p>
+                      <p><i className="bi bi-envelope-fill me-2"></i><strong>Email:</strong> samithshashika.se@gmail.com</p>
+                      <p><i className="bi bi-telephone-fill me-2"></i><strong>Phone:</strong>  +94 76 402 1805</p>
                     </div>
                     <img src={contactImg} alt="Contact Illustration" className="img-fluid contact-img-large mx-auto" />
                   </div>

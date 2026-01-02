@@ -26,8 +26,8 @@ export const About = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeInRight" : ""}>
                   <h2 className="about-title">About Me</h2>
-                  <p className="about-description">
-                    I’m Samith Shashika, a dedicated Software Engineering undergraduate at SLTC Research University with a strong passion for creating meaningful digital solutions. Through both academic experience and self-driven learning, I’m gaining hands-on skills in full-stack development and cross-platform mobile applications, focusing on intuitive interfaces and scalable backend systems. My interests span across AI, real-time applications, and human-centered design, and I enjoy building technology that solves real-world problems and enhances user experiences.
+                  <p className="about-description" style={{ textAlign: "justify" }}>
+                    I’m Samith Shashika, a Software Engineering undergraduate at SLTC Research University with hands-on experience in full-stack web development, mobile app development, UI/UX design, and AI/ML integration. I have built real-world applications using React, Node.js, Express.js, MongoDB, PostgreSQL, and Flutter, focusing on scalable systems and intuitive user experiences. I am seeking a Software Engineering internship to gain industry experience and contribute to impactful projects that leverage modern technologies and innovative solutions.
                   </p>
 
                   {/* Custom Tabs */}
@@ -57,9 +57,9 @@ export const About = () => {
 
                   {activeTab === "experience" && (
                     <div className="tab-content-box">
-                      <p><span className="gold-text">🌐 2022–Present — Web Development</span><br />Food Order Website, Movie Review Application, QuickCart (Full-Stack E-Commerce Platform), Streamify (Real-Time Chat & Video Calling App)</p>
-                      <p><span className="gold-text">📱 2022–Present — Mobile App Development</span><br />BRandom Quote Generator App, SignBridge (Sign Language Translation App)</p>
-                      <p><span className="gold-text">🤖 2023–Present — AI, Machine Learning & Computer Vision</span><br />Smart Fan Control System, PredictiveHR (Employee Churn Prediction), QuickAI (AI SaaS Multi-Tool Platform)</p>
+                      <p><span className="gold-text">🌐 2022–Present — Web Development</span><br /> Streamify (Real-Time Chat & Video Calling App), QuickCart (Full-Stack E-Commerce Platform)</p>
+                      <p><span className="gold-text">📱 2022–Present — Mobile App Development</span><br />SignBridge (Sign Language Translation App - FYP)</p>
+                      <p><span className="gold-text">🤖 2023–Present — AI, Machine Learning & Computer Vision</span><br />QuickAI (AI SaaS Multi-Tool Platform), PredictiveHR (Employee Churn Prediction)</p>
                     </div>
                   )}
                 </div>
